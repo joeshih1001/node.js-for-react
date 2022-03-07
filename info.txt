@@ -1,0 +1,24 @@
+
+
+# 回應
+res.end()
+res.send()
+res.json()
+res.render()
+res.redirect()
+
+
+# 輸入的資料
+
+req.query  # query string (GET)
+req.body   # 表單的資料 (POST)
+
+req.params # 路徑上的變數代稱
+
+req.file   # multer 檔案上傳
+req.files  # multer 檔案上傳
+
+req.session
+
+
+middleware # 中介軟體
